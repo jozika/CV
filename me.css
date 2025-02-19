@@ -1,0 +1,139 @@
+
+body{
+   
+    background-color: rgb(56, 144, 123);
+}
+
+
+#continer{
+
+    background-color: azure;
+    border-radius: 50px;
+    height: 80px;
+    width: 700px;
+    margin-left: 20%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.item{  
+    font-size: large;
+}
+
+
+#bild{
+    border-radius: 50px;
+    position: absolute;
+    margin-top: 120px;
+    height: 170px;
+    margin-left: 160px;   
+}
+
+#name{
+    position:absolute;
+    margin-top: 300px;
+    font-size: 28px;
+    margin-left: 195px;
+}
+
+#line{
+    border: 1px solid black;
+    width: 250px;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 130px;
+}
+
+#rubrik{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 170px;
+}
+
+#bild2{
+    height: 30px;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 180px;
+    border-radius: 100%;
+}
+
+#bild3{
+    height: 30px;
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 180px;
+    border-radius: 100%;
+}
+
+#phone{
+    position: absolute;
+    margin-top: 422px; 
+    margin-left: 240px;
+    font-size: large;
+}
+
+#mail{
+
+    position: absolute;
+    margin-top: 492px; 
+    margin-left: 240px;
+    font-size: large;
+}
+
+#meline{
+    border: 1px solid black;
+    width: 400px;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 250px;
+    transform: rotate(90deg);
+}
+
+#rubrikname{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 490px;
+    font-size: 25px;
+
+}
+
+#textC{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 500px;
+    height: 300px;
+    width: 480px;
+    font-size: 15px;
+    line-height: 1.7;
+    
+
+}
+
+#art{
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    border-radius: 100px 100px 0 0;
+    background-color: azure;
+    transform: rotate(90deg);
+    transform-origin: left;
+    margin-top: -50px;
+
+}
+
+#art2{
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    background-color: azure;
+    border-radius: 0 0 100px 100px;
+    transform: rotate(180deg);
+    transform-origin: center;
+}

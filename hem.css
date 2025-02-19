@@ -1,0 +1,66 @@
+
+body{
+    background-color: rgb(56, 144, 123);
+}
+
+
+#continer{
+
+    background-color: azure;
+    border-radius: 50px;
+    height: 80px;
+    width: 700px;
+    margin-left: 20%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.item{  
+    font-size: large;
+}
+
+
+#CVsign{
+    background-color: azure;
+    height: 300px;
+    width: 300px;
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    border-radius: 100%;
+    
+}
+
+.CVtext{
+
+  font-style: normal;
+  font-size: 180px; 
+  margin: 20px;
+  margin-top: 50px;
+  
+}
+
+
+#text{
+    height: 200px;
+    width: 550px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 20px;
+    line-height: 1.8;
+    
+}
+
+#line{
+
+    border: 1px solid black ;
+    width: 780px;
+    position: absolute;
+    margin-top: 470px;
+    margin-left: 140px;
+     
+}
